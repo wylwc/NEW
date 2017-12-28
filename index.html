@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style type="text/css">
+	h1{
+		font-weight: normal;
+	}
+</style>
+<body>
+	<script type="text/javascript">
+		function ids(num){
+			var first = num.substring(0,10)
+			var nums = num.substring(10,14);
+			var lastFour = num.slice(14);
+			document.write("<h1>"+first + "<b>"+nums+"</b>" + "****"+"</h1>")
+		}
+		ids('341622199804088724');
+	</script>
+</body>
+</html>
